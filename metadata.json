@@ -1,7 +1,7 @@
 {
     "title": "Glottolog Datasette API",
     "description": "Access the Glottolog langoid data via a REST api. “Glottolog 3.2” edited by Hammarström, Harald & Bank, Sebastian & Forkel, Robert & Haspelmath, Martin is licensed under CC-BY 4.0 International.",
-    "license": "CC-BY 4.0 International",
+    "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "source": "Glottolog",
     "source_url": "http://glottolog.org/meta/downloads/"

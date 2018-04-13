@@ -22,20 +22,6 @@
       "child_family_count": 0,
       "child_language_count": 0,
       "child_dialect_count": 6
-    },
-    {
-      "id": "apul1236",
-      "label": "Apulia-Calabrian Greek",
-      "type": "language",
-      "status": "safe",
-      "parent": "indo1319",
-      "family": "koin1234",
-      "lat": "",
-      "long": "",
-      "iso639P3code": "",
-      "child_family_count": 0,
-      "child_language_count": 0,
-      "child_dialect_count": 0
     }, ...
   ],
   "table_rows_count": 23495,
@@ -45,13 +31,12 @@
   "query_ms": 15.398740768432617,
   "source": "Glottolog",
   "source_url": "http://glottolog.org/meta/downloads/",
-  "license": "CC-BY 4.0 International",
+  "license": "CC BY 4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/"
 }
 ```
 
-- The full Datasette API: <http://datasette.readthedocs.io/en/latest/?badge=latest>
-- Other examples of <https://github.com/simonw/datasette/wiki/Datasettes>
+The full Datasette API docs explain a bit more about the options: <http://datasette.readthedocs.io/en/latest/?badge=latest>. Most parameters however are just based on the column names in the tables.
 
 Note that thanks to the versioned API-system, future version of the data model are not necessarily compatible.
 
