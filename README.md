@@ -36,7 +36,7 @@
 }
 ```
 
-The full Datasette API docs explain a bit more about the options: <http://datasette.readthedocs.io/en/latest/?badge=latest>. Most parameters however are just based on the column names in the tables.
+The full Datasette API docs explain a bit more about the options: <http://datasette.readthedocs.io/en/latest/>. Most parameters however are just based on the column names in the tables.
 
 Note that thanks to the versioned API-system, future version of the data model are not necessarily compatible.
 

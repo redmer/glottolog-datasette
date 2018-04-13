@@ -57,7 +57,7 @@ def main():
         for row in langreader:
             # shuffle around the values of the origin csv and the target insert statement
             id_, family_id, parent_id, name, bookkeeping, level, status, latitude, longitude, iso639P3code, description, markup_description, child_family_count, child_language_count, child_dialect_count, country_ids = row
-            data = (id_, name, level, status, family_id, parent_id, latitude, longitude,
+            data = (id_, name, level, status, parent_id, family_id, latitude, longitude,
                     iso639P3code, child_family_count, child_language_count, child_dialect_count, )
             c.execute(insertStmt, data)
 
