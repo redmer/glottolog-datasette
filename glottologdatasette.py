@@ -25,8 +25,8 @@ CREATE TABLE languoid (
     "parent" TEXT,
     "family" TEXT,
 
-    "lat" REAL,
-    "long" REAL,
+    "latitude" REAL,
+    "longitude" REAL,
     "iso639P3code" TEXT,
 
 	"child_family_count" INTEGER,
